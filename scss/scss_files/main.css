@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  height: 100vh;
+  width: 100vw;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main p {
+  color: pink;
+  letter-spacing: 10px;
+  font-family: monospace;
+}
+.main h1 {
+  font-size: 2rem;
+  color: aliceblue;
+}
+.main h1:hover {
+  color: black;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,9 @@
+@mixin flex_code{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+@mixin font_size($font-size){
+    font-size: $font_size;
+}

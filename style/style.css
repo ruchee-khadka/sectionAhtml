@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  margin: 1px;
+  padding: px;
+}
+
+nav{
+  justify-content:space-between ;
+  display: flex;
+  height: 20px;
+}
+
+.navbar{
+  background-color: rgb(49, 37, 37);
+  text-align: center;
+  height: 25px;
+}
+
+.navbar a{
+  color: white;
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-right: 30px;
+}
+
+nav a:hover{
+  background-color: white;
+  color: grey;
+  /* border: 1px solid; */
+  /* padding: 3px; */
+  /* border-radius: 20px;
+  position: relative;
+  width: fit-content; */
+}
+
+body{
+  color:rgb(179, 139, 37);
+  margin: 002px;
+  padding: 0px;
+  background-color: rgb(26, 212, 141);
+}
+
+
+.card{
+  border: 1px solid black;
+  width: 20%;
+  box-shadow: 20px 20px 20px;
+}
+
+
+.position-example{
+  width: 400px;
+  height:70vh;
+  background-color: red;
+  display: flex;
+  position: relative;
+}
+
+.position1{
+  width: 20px;
+  height: 20px;
+  top: 15px;
+  left: 15px;
+  background-color: blueviolet;
+  position: absolute;
+
+}
+
+
+.position2{
+  width: 60px;
+  height: 50px;
+  background-color: blue;
+}
+
+.para{
+  text-align: justify;
+  text-align-last: center;
+  line-height: 20px;
+  font: size 18px;
+  margin: 30px;
+ 
+}
